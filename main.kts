@@ -31,13 +31,13 @@ class livingExpenses{
         fIndividual = fCost + rent + ownpet
 }
 class overallSavings{
-    fun myInvestments()
-        investingMoney = monthlySalary * 0.05
-        childrenSavings = investingMoney * 0.10
-        
-    fun myRetirement()
+    fun myInvestments(donatedYears)
+        investingMoney = monthlySalary * 0.05 * donatedYears
+        childrenSavings = investingMoney * 0.10 * 20
+        marriedSavings = investingMoney * 2
+    fun myRetirement(timeWorked)
+        employerSavings = monthlySalary * 0.01 * timeWorked
 
-    
     fun main()
         print(mIndividual)
         print(fIndividual)
