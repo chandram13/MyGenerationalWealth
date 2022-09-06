@@ -21,6 +21,8 @@ class livingExpenses{
         married_fSpouse = fspouseCost + first_child_cost + second_child_cost
         preschoolCost = 1,135 * 12
         primaryschool_cost = 16,102 * 12
+        public_secondary_cost = 30,000 * 12
+        private_secondary_cost = 60,000 * 12
         first_child_cost = preschoolCost + primaryschool_cost 
         second_child_cost = preschoolCost + primaryschool_cost
         marriedYearly = married_mSpouse + married_fSpouse + rent 
