@@ -29,6 +29,15 @@ class livingExpenses{
         unmarriedYearly = mspouseCost + fspouseCost + rent
         mIndividual = mCost + rent + ownpet
         fIndividual = fCost + rent + ownpet
+}
+class overallSavings{
+    fun myInvestments()
+        investingMoney = monthlySalary * 0.05
+        childrenSavings = investingMoney * 0.10
+        
+    fun myRetirement()
+
+    
     fun main()
         print(mIndividual)
         print(fIndividual)
